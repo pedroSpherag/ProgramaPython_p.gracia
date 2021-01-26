@@ -434,7 +434,7 @@ while True:  #menu de opciones
     if opcion =="1":
         # PRUEBA COMPLETA-----------------
         mesgAlarmActivos=True
-        imeis=ParteInicial("Imeis",True)
+        imeis=ParteInicial("Imeis",False)
         #poner sombra
         BorraryPonerSombra(client,imeis,True)
         #prueba selenoide
